@@ -1,5 +1,8 @@
-streamlit
-streamlit-webrtc
-speechrecognition
-av
+streamlit==1.32.2
+streamlit-webrtc==0.45.2
+av==10.0.0
 numpy
+speechrecognition
+
+# Facultatif : pour dev local sous Windows avec micro
+pyaudio ; sys_platform == 'win32'
