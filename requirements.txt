@@ -4,5 +4,3 @@ av==10.0.0
 numpy
 speechrecognition
 
-# Facultatif : pour dev local sous Windows avec micro
-pyaudio ; sys_platform == 'win32'
