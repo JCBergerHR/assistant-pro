@@ -1,4 +1,9 @@
 import streamlit as st
+from streamlit_webrtc import webrtc_streamer, AudioProcessorBase
+import speech_recognition as sr
+import av
+
+import streamlit as st
 from streamlit_webrtc import webrtc_streamer, ClientSettings
 
 st.set_page_config(page_title="Assistant Pro Démo", page_icon="🤖", layout="wide")
