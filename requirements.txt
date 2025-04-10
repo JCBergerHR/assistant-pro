@@ -1,6 +1,5 @@
 streamlit
 streamlit-webrtc
 speechrecognition
-pyaudio
+sounddevice
 numpy
-av
